@@ -3,95 +3,310 @@
 
 <head>
     <style>
-        .we_make {
-            /* display: flex; */
-            background-position: center;
-            padding:50px 100px ;
-            justify-content: center;
-            text-align: center;
-            font-size: 40px;
-            height: 300px;
-            flex-direction: column;
-            border: 2px solid rebeccapurple
 
-            
+        #para1 {
+            display: grid;
+            gap: 25px;
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            grid-template: "box1 box2"
+                "box1 box2";
+
+            margin: 30px;
+
         }
-        .we_make_para>p{
-            color: rgba(16, 24, 52, 0.75);
+
+        #para_box1 {
+            height: 330px;
+            grid-area: box1;
+            text-align: center;
+            margin: 0px 90px;
+
+
         }
-        .we_make_h1{
+
+        .we_make_h1 {
             color: rgb(16, 24, 52);
+            font-size: 40px;
         }
-      .key_feature{
+        .we_make_para {
+            color: rgba(16, 24, 52, 0.75);
+            font-size: 22px;
+        }
+
+
+
+
+        @media only screen and (max-width: 710px) {
+            #para1 {
+                grid-template: "box1";
+            }
+
+            #para_box1 {
+                height: 230px;
+                text-align: center;
+                margin: 0px 40px;
+            }
+            .we_make_h1 {
+                color: rgb(16, 24, 52);
+                font-size: 32px;
+
+            }
+
+            .we_make_para {
+                color: rgba(16, 24, 52, 0.75);
+                font-size: 14px;
+ 
+            }
+
+        }
+
+
+
+
+        @media only screen and (min-width: 930px) {
+            #para1 {
+                grid-template: "box1";
+            }
+
+            #para_box1 {
+                height: 370px;
+                text-align: center;
+                margin: 0px 180px;
+            }
+            .we_make_h1 {
+                color: rgb(16, 24, 52);
+                font-size: 44px;
+
+            }
+
+            .we_make_para {
+                color: rgba(16, 24, 52, 0.75);
+                font-size: 24px;
+ 
+            }
+
+        }
+
+
+
+        @media only screen and (min-width: 1100px) {
+            #para1 {
+                grid-template: "box1";
+            }
+
+            #para_box1 {
+                height: 340px;
+                text-align: center;
+                margin: 0px 240px;
+            }
+            .we_make_h1 {
+                color: rgb(16, 24, 52);
+                font-size: 54px;
+
+            }
+
+            .we_make_para {
+                color: rgba(16, 24, 52, 0.75);
+                font-size: 26px;
+ 
+            }
+        }
+
+
+        #key {
+            display: grid;
+            gap: 25px;
+            grid-template: "box1 box2"
+                "box1 box2";
+
+            margin: 30px;
             background-color:rgb(236, 237, 239);
-            padding: 10px;
-            box-sizing: border-box;
-            align-items: center;
-            /* width: 100%; */
-            overflow: hidden;
-            position: relative;
-            color: rgba(16, 24, 52);
-            border: 2px solid rebeccapurple
 
         }
 
-        .key_feature>h2{
-            /* max-width: 100%; */
-            font-weight: 700;
-            /* word-wrap: break-word; */
-            /* line-height: 1; */
-            font-size: 50px;
-            margin-bottom: 8px;
-            border: 2px solid red;
-            text-align: center;
+        #key_box1 {
+            height: 320px;
+            grid-area: box1;
         }
-                 
-        .sub_key_feature{
-            padding:32px 8px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            border:2px solid red;
-        }
-        
-        .key_feature_box1{
-            justify-content: center;
-            align-items: center;
-            width: 40%;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            border:2px solid blue;
-        }
-      
-        .key_feature_box2{
-            justify-content: center;
-            align-items: center;
-            width: 40%;
 
-            display: flex;
-            flex-direction: column;
-            border:2px solid blue;
 
+        #key_box2 {
+            height: 210px;
+            grid-area: box2;
         }
-         
+
+
         .feature_ul{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
             min-width: 0px;
             min-height: 0px;
-            width: 70%;
-            border: 2px solid red;
+            font-size: 20px;
         }
-        .feature_li{
 
-            align-items: flex-start;
-            width: 70%;
-            border: 2px solid teal;
-            padding: 20px;
-            font-size: 18px;
-        } 
+
+        @media only screen and (max-width: 650px) {
+            #key {
+                grid-template: "box1 box2";
+            }
+            #key_box1 {
+                height: 210px;
+                align-items: center;
+                margin: auto;
+            }
+            #key_box2{
+
+                height: 140px;
+            }
+            .feature_ul{
+                font-size: 11px;
+            }
+        }
+
+
+
+
+        @media only screen and (min-width: 930px) {
+            #key{
+                grid-template: "box1 box2 ";
+            }
+            #key_box1 {
+                height: 350px;
+                align-items: center;
+            }
+            #key_box2{
+                height: 300px;
+            }
+            .feature_ul{
+                font-size: 28px;
+            }
+
+            }
+        
+        
+            @media only screen and (min-width: 1100px) {
+            #women1{
+                grid-template: "box1 box2 ";
+            }
+            #key_box1 ,#key_box2{
+                height: 400px;
+                align-items: center;
+                font-size: 20px;
+            }
+            .feature_li{
+                font-size: 30px;
+            }
+
+
+            }
+
+
+
+
+        #women1 {
+            display: grid;
+            gap: 25px;
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            grid-template: "box1 box2"
+                "box1 box2";
+
+            margin: 30px;
+            background-color:rgb(236, 237, 239);
+
+        }
+
+        #women_box1 {
+            height: 280px;
+            grid-area: box1;
+        }
+
+
+        #women_box2 {
+            height: 330px;
+            grid-area: box2;
+            text-align: center;
+        }
+        .layout3__span2{
+            color: #196CFF;
+            line-height: 1.4;
+            /* max-width: 100%; */
+
+        }
+        .layout3__span1{
+            font-size: 32px;
+            color: #101834;
+            /* text-align: center; */
+            /* box-sizing: border-box; */
+        }
+        .button{
+            color: #196CFF;
+            border-color: #196CFF;
+            margin-top: 10px;
+            font-weight: bold;
+            border-width: 2px;
+            height: 40px;
+            opacity: 1;
+
+        }
+        .bgc-g{
+            background-color:rgb(236, 237, 239);
+        }
+
+        @media only screen and (max-width: 750px) {
+            #women1 {
+                grid-template: "box1"
+                    "box2";
+            }
+            #women_box1 ,#women_box2{
+                height: 300px;
+                align-items: center;
+                margin: auto;
+            }
+            .layout3__span1{
+                font-size: 32px;
+            }
+        }
+
+
+
+
+        @media only screen and (min-width: 930px) {
+            #women1{
+                grid-template: "box1 box2 ";
+            }
+            #women_box1 ,#women_box2{
+                height: 400px;
+                align-items: center;
+            }
+            .layout3__span1{
+                font-size: 38px;
+            }
+            .layout3__span2,.layout3__span2{
+            color: #196CFF;
+            line-height: 2.3;
+
+        }
+            }
+        
+        
+            @media only screen and (min-width: 1100px) {
+            #women1{
+                grid-template: "box1 box2 ";
+            }
+            #women_box1 ,#women_box2{
+                height: 400px;
+                align-items: center;
+            }
+            .layout3__span1{
+                font-size: 44px;
+            }
+            .layout3__span2,.layout3__span2{
+            color: #196CFF;
+            line-height: 2.3;
+
+        }
+            }
+
 
 
     </style>
@@ -100,24 +315,25 @@
 <body>
     <div>
         <section class="we_make">
-            <div class="we_make_sub">
-
-                <h1 class="we_make_h1">
-                    We make it easy to listen and to be heard</h1>
-                <div class="we_make_para">
-                    <p>Our interactive presentation
-                        platform is powerful yet easy-to-use with features that enable you to prepare, present and
-                        analyze presentations.</p>
+            <div id="para1">
+                <div id="para_box1" class="we_make_sub">
+        
+                    <h1 class="we_make_h1">
+                        We make it easy to listen and to be heard</h1>
+                    <div class="we_make_para">
+                        <p>Our interactive presentation
+                            platform is powerful yet easy-to-use with features that enable you to prepare, present and
+                            analyze presentations.</p>
+                    </div>
                 </div>
-            </div>
+            </div>    
         </section>
 
 
 
         <section class="key_feature">
-            <h2>Key features</h2>
-            <div class="sub_key_feature">
-                <div class="key_feature_box1">
+            <div id="key" class="sub_key_feature">
+                <div id="key_box1" class="key_feature_box1">
                     <ul class="feature_ul">
                         <li class="feature_li">
                             <div class="feature_li_class"></div>
@@ -133,41 +349,39 @@
                         </li>
                     </ul>
                 </div>
-                <div class="key_feature_box2">
-                    <img width="100%" src="img/features.gif" alt=" " class=" " />
+                <div id="key_box2" class="key_feature_box2">
+                    <img height="100%" src="img/features.gif" alt=" " class=" " />
                 </div>
             </div>
         </section>
 
 
-
-        <section class="">
-            <div class="">
-                <div class="">
-                    <div class="">
-                        <img src="img/woman.png" height="100%" alt="image of T Delfin" class="" />
-                    </div>
-                    <div class=" ">
-                        <span font-size="4,5" font-weight="bold" font-family="body" class="">
+        <section class="bgc-g">
+            <div id="women1">
+                <div id="women_box1">
+                    <img src="img/woman.png" height="100%" alt="image of T Delfin" class="" />
+                </div>
+                <div id="women_box2">
+                    <div>
+                        <span class="layout3__span1">
                             &quot;Mentimeter is structured in the
                             way our minds work, fostering engagement, connection and the ability to engage with the
                             presenter&quot;
-                        </span>
-                        <span font-size="2,3" font-family="body"
-                            class="r-o r-p r-r r-dv r-dw r-t r-v r-dx r-y r-text">T Delfin, Professor, Cal Poly
+                        </span><br>
+                        <span class="layout3__span2">T Delfin, Professor, Cal Poly
                             Pomona
-                        </span>
-                        <a href="stories.html" class="">
-                            <span class="">Explore more stories</span>
-                        </a>
+                        </span><br>
+                        <button class="button">Explore more stories</button>
+        
                     </div>
+        
                 </div>
-            </div>
+            </div>    
+        
         </section>
 
     </div>
 </body>
 
 </html>
-
 
