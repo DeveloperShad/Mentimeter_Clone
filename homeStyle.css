@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-image: url(https://cdn.pixabay.com/photo/2017/03/04/14/19/helicopter-2116170__340.jpg);
+    background-size: cover;
+    background-position: center;
+     */
+     background-color: rgb(255, 255, 255);
+    
+}
+.menu-bar {
+    background: wheat;
+    text-align: center;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color:black;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+ }
+.active , .menu-bar ul li:hover {
+    background: rgb(212, 197, 197);
+    border: radius 5px;
+    color:red
+} 
+.logo {
+    padding: 15px;
+    margin: 10px;
+    
+}
+.signup {
+    background-color: rgba(0, 60, 255, 0.616);
+}
+.h1 {
+    width: 800px;
+    margin: auto;
+}
+.h1 > h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+}
+.h1 > p {
+    font-size: 30px;
+    color: grey;
+}
+#signup2 {
+    width: 150px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.signup2 {
+    background-color: blue;
+    width: 100px;
+    margin-left: 20px;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    
+}
+#signup2 > p {
+    color: grey;
+}
+
+#video-background {
+    background-image: url(https://static.mentimeter.com/content-web/prod/_next/static/images/graphic-elements-118cd4d8fe1a8dd4456a1022c8ebdd8b.png);
+    width: 1200px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 100px;
+    
+    
+}
+#video {
+   margin-left: 220px;
+
+}

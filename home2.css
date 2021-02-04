@@ -1,0 +1,69 @@
+#millions-h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #101834;
+}
+.millions-below {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    
+
+}
+.div-80m {
+    width:30% ;
+    text-align: center;
+    color: #101834;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 35px;
+    
+}
+.border-80m-head {
+    /* width: 25%; */
+    border-bottom: 2px solid black;
+    margin-top: -45px; 
+} 
+#image-text-box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    
+}
+#img-box > img {
+    width: 40%;
+    margin: 20px;
+ 
+  
+    
+    
+    
+}
+#text-box > h2{
+    width: 40%;
+    color: #101834;
+    margin: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+
+    
+}
+#text-box > p {
+    color: blue;
+    text-align: center;
+    font-family: sans-serif;
+}
+#btn-text-box {
+    border: 1px solid blue;
+    color: blue;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#btn-text-box:hover {
+    color: white;
+    background: blue;
+    font-family: sans-serif;
+    
+}
