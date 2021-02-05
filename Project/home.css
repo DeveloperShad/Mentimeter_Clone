@@ -59,7 +59,7 @@
         border-radius: 5px;
         color: white;
     }
-    
+/*    till here for nav bar  */
     .pop_up {
         display: flex;
         flex-direction: row-reverse;
