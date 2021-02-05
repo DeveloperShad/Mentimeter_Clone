@@ -1,6 +1,76 @@
 body {
     font-family: sans-serif;
 }
+
+
+/* Nav Bar Style Started */
+
+
+.top_nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_nav>div {
+    width: 33%
+}
+
+.top_nav>.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_nav>.details {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.top_nav>.login_signup {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logo>div:nth-child(2) {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.details>div {
+    width: 20%;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.login_signup>div {
+    width: 20%;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+.login_signup>div:nth-child(1) {
+    background-color: rgb(25, 108, 255);
+    border-radius: 5px;
+    color: white;
+}
+
+/* Nav Bar Style Ended */
+
+/*CSS For First Block Of Feature Page Started */
 #para1 {
     display: grid;
     gap: 25px;
@@ -102,7 +172,10 @@ body {
 
     }
 }
+/*CSS For First Block Of Feature Page Ended */
 
+
+/*CSS For Second Block Of Feature Page Started */
 
 #key {
     display: grid;
@@ -197,9 +270,10 @@ body {
 
 
 }
+/*CSS For Second Block Of Feature Page Started */
 
 
-
+/*CSS For Third Block Of Feature Page Started */
 
 #women1 {
     display: grid;
@@ -316,7 +390,10 @@ body {
 
     }
 }
+/*CSS For Third Block Of Feature Page Ended */
 
+
+/*CSS For Fourth Block Of Feature Page Started */
 
 #build1 {
     display: grid;
@@ -563,6 +640,10 @@ body {
 
     }
 }
+/*CSS For Fourth Block Of Feature Page Ended */
+
+
+/*CSS For Fifth Block Of Feature Page Started */
 
 .get_started {
     background-image: url("https://static.mentimeter.com/static/images/menti-pattern.png");
@@ -636,8 +717,10 @@ body {
         border-radius: 5px;
     }
 }
+/*CSS For Fifth Block Of Feature Page Ended */
 
 
+/*CSS For Sixth Block Of Feature Page Started */
 
 #explore {
     display: grid;
@@ -822,3 +905,4 @@ body {
     color: #101834;
 
 }
+/*CSS For Fifth Block Of Feature Page Ended */
