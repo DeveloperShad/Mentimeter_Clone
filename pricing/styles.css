@@ -258,6 +258,9 @@ a {
         gap: 10px;
     
     }
+    .hide{
+        display: none;
+    }
 }
 @media only screen and (min-width: 600px) {
     #grid{
@@ -302,6 +305,9 @@ a {
     background-color: #ECEDEF;
     gap: 10px;
 
+}
+.hide{
+    display: none;
 }
 }
 @media only screen and (min-width: 768px) {
@@ -348,6 +354,10 @@ a {
     gap: 10px;
 
 }
+.hide{
+    display: inline-block;
+}
+
 
 }
 @media only screen and (min-width: 992px) {
@@ -382,6 +392,10 @@ a {
         gap: 10px;
     
     }
+    .hide{
+        display: inline-block;
+    }
+    
 }
     
 
