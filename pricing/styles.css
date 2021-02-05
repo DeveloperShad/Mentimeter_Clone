@@ -208,6 +208,9 @@ a {
 .padding-connect{
     padding-top: 250px;
 }
+.btn1:hover{
+    background-color: lightslategray;
+}
 
 
 @media only screen and (max-width: 600px) {
