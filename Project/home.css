@@ -59,7 +59,8 @@
         border-radius: 5px;
         color: white;
     }
-/*    till here for nav bar  */
+    /*    till here for nav bar  */
+    
     .pop_up {
         display: flex;
         flex-direction: row-reverse;
@@ -145,4 +146,179 @@
         text-align: center;
         margin-top: 0;
         margin-left: 4%;
+    }
+    /* Definition od Mentimeter part */
+    
+    .home_page>.definition {
+        width: 100%;
+        background-color: #ECEDEF;
+    }
+    
+    .home_page>.definition>div>h2 {
+        color: #196CFF;
+        text-align: center;
+        line-height: 1;
+        font-weight: 700;
+        font-size: 48px;
+        font-family: sans-serif;
+        padding-top: 50px;
+    }
+    
+    .home_page>.definition {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .home_page>.definition>div:nth-child(2) {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 20% 20% 20%;
+        gap: 5%;
+        place-content: center;
+    }
+    
+    .image>div {
+        margin-bottom: 0;
+    }
+    
+    .definition>div:nth-child(2)>.descr>h3 {
+        font-size: 20px;
+        color: #101834;
+        line-height: 1;
+        font-weight: 700;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    .definition>div:nth-child(2)>.descr>p {
+        font-size: 18px;
+        color: #101834;
+        line-height: 1.4;
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 8px;
+    }
+    
+    .features_page>div>a {
+        color: #196CFF;
+    }
+    
+    .features_page>div {
+        width: 15%;
+        margin: auto;
+        font-size: 18px;
+        background-color: transparent;
+        border: 2px solid #196CFF;
+        padding: 15px;
+        text-align: center;
+        font-weight: bold;
+        font-family: sans-serif;
+        border-radius: 5px;
+        margin-top: 50px;
+        text-decoration: none;
+        margin-bottom: 50px;
+    }
+    
+    .home_page>.data {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .home_page>.data>div {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .data>div>h1 {
+        font-size: 48px;
+        color: #101834;
+        line-height: 1;
+        font-weight: 700;
+        font-family: sans-serif;
+        margin-top: 50px;
+    }
+    
+    .data>.count {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 22% 22% 22%;
+        gap: 10%;
+        justify-content: center;
+    }
+    
+    .count>div>div {
+        border: 1px solid #101834;
+        margin-top: 0;
+    }
+    
+    .count>div>h1 {
+        font-size: 64px;
+        line-height: 0.8;
+        color: #101834;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-family: sans-serif;
+    }
+    
+    .count>div>p {
+        font-size: 20px;
+        line-height: 1;
+        font-family: sans-serif;
+        color: #101834;
+        text-align: center;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    
+    .home_page>.stories {
+        display: flex;
+        margin: 100px;
+        justify-content: center;
+    }
+    
+    .home_page>.stories>div {
+        width: 45%;
+    }
+    
+    .stories>div>img {
+        max-width: 100%;
+    }
+    
+    .stories>.descr {
+        text-align: center;
+    }
+    
+    .stories>.descr>h2 {
+        font-size: 38px;
+        color: #101834;
+        font-weight: 550;
+        font-family: sans-serif;
+    }
+    
+    .stories>.descr>p {
+        font-size: 20px;
+        margin-top: 18px;
+        color: #196CFF;
+        line-height: 1.4;
+        font-family: sans-serif;
+    }
+    
+    .stories>.descr>div {
+        width: 40%;
+        margin: auto;
+        padding: 15px;
+        text-decoration: none;
+        border: 2px solid #196CFF;
+        border-radius: 5px;
+        font-size: 16px;
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 60px;
+    }
+    
+    .descr>div>a {
+        color: #196CFF;
+        font-weight: 600;
     }
