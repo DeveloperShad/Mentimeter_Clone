@@ -32,7 +32,23 @@
 
 
 
-.sec > .awesome {
+.sec2 > .awesome {
+    display: flex;
+    width: 80%; 
+    margin: auto;
+    justify-content: center;
+}
+.sec2 > .awesome > div {
+    width: 30%;
+    margin: 3%;
+    text-align: left;
+    color: #3A4057;
+    font-family: sans-serif;
+}
+.sec2 > .awesome > div > div {
+    width: 100%;
+}
+.sec2 > .awesome > div:hover {
     
 }
 
