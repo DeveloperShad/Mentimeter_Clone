@@ -1,0 +1,40 @@
+.sec1 {
+    margin-bottom: 50px;
+}
+.sec1 > .img1 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.sec1 > .img1 > div {
+    width: 50%;
+    margin: 5%;
+    text-align: left;
+    color: #3A4057;
+    font-family: sans-serif;
+    
+}
+.sec1 > .img1 > div > img {
+    
+}
+.img1> div> a{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    color: #3A4057; 
+}
+
+
+
+
+
+
+
+
+.sec > .awesome {
+    
+}
+
+
+
