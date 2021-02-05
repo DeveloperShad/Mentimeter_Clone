@@ -1,6 +1,10 @@
 .top_nav {
     display: flex;
     flex-direction: row;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    height: 70px;
 }
 
 .top_nav>div {
@@ -21,6 +25,7 @@
 .top_nav>.login_signup {
     display: flex;
     flex-direction: row-reverse;
+    height: 45px;
 }
 
 .logo>div:nth-child(2) {
