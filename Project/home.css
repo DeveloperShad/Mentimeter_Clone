@@ -1,418 +1,460 @@
-    .top_nav {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .top_nav>div {
-        width: 33%
-    }
-    
-    .top_nav>.logo {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .top_nav>.details {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-    }
-    
-    .top_nav>.login_signup {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    
-    .logo>div:nth-child(2) {
-        font-size: 40px;
-        font-weight: 700;
-        font-family: sans-serif;
-    }
-    
-    .details>div {
-        width: 20%;
-        font-size: 18px;
-        font-weight: 550;
-        text-align: center;
-        align-items: center;
-        padding: 15px;
-        font-family: sans-serif;
-    }
-    
-    #respective_page {
-        color: black;
-        text-decoration: none;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    .details>div>a:hover {
-        color: rgb(25, 108, 255);
-    }
-    
-    .login_signup>div {
-        width: 20%;
-        font-size: 18px;
-        font-weight: 550;
-        text-align: center;
-        align-items: center;
-        padding: 15px;
-        font-family: sans-serif;
-    }
-    
-    .login_signup>div:nth-child(1) {
-        background-color: rgb(25, 108, 255);
-        border-radius: 5px;
-        color: white;
-    }
-    /*    till here for nav bar  */
-    
-    .pop_up {
-        display: flex;
-        flex-direction: row-reverse;
-        background-color: rgb(255, 128, 171);
-        align-items: center;
-        height: 80px;
-        margin-top: 30px;
-    }
-    
-    .pop_up>.pop_up_msg {
-        display: flex;
-        flex-direction: row;
-        margin-right: 30%;
-    }
-    
-    .pop_up>.pop_up_msg>div:nth-child(1) {
-        color: #101834;
-        font-size: 22px;
-        font-weight: 600;
-        font-family: sans-serif;
-        margin-right: 50px;
-        padding: 10px;
-    }
-    
-    .pop_up>.pop_up_msg>div:nth-child(2) {
-        color: #101834;
-        font-size: 22px;
-        font-weight: 600;
-        font-family: sans-serif;
-        border: 2px solid #101834;
-        border-radius: 5px;
-        padding: 10px;
-    }
-    
-    .det_box {
-        max-width: 100%;
-    }
-    
-    .det_box>.details {
-        width: 70%;
-        margin: 50px auto;
-        text-align: center;
-    }
-    
-    .det_box>.details>h1 {
-        font-size: 48px;
-        color: #101834;
-        line-height: 1;
-        font-weight: 700;
-        font-family: sans-serif;
-        text-align: center;
-    }
-    
-    .det_box>.details>p {
-        font-size: 25px;
-        color: rgba(16, 24, 52, 0.75);
-        line-height: 1.4;
-        font-family: sans-serif;
-        text-align: center;
-    }
-    
-    .details>div {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 0;
-    }
-    
-    .details>div>div {
-        width: 100px;
-        padding: 20px;
-        text-align: center;
-        background-color: rgb(25, 108, 255);
-        margin: auto;
-        color: #ffffff;
-        border-radius: 5px;
-    }
-    
-    .details>#descr {
-        font-size: 16px;
-        color: rgba(16, 24, 52, 0.5);
-        line-height: 1.4;
-        font-family: sans-serif;
-        text-align: center;
-        margin-top: 0;
-        margin-left: 4%;
-    }
-    /* Definition od Mentimeter part */
-    
-    .home_page>.definition {
-        width: 100%;
-        background-color: #ECEDEF;
-    }
-    
-    .home_page>.definition>div>h2 {
-        color: #196CFF;
-        text-align: center;
-        line-height: 1;
-        font-weight: 700;
-        font-size: 48px;
-        font-family: sans-serif;
-        padding-top: 50px;
-    }
-    
-    .home_page>.definition {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .home_page>.definition>div:nth-child(2) {
-        display: grid;
-        grid-template-rows: auto auto;
-        grid-template-columns: 20% 20% 20%;
-        gap: 5%;
-        place-content: center;
-    }
-    
-    .image>div {
-        margin-bottom: 0;
-    }
-    
-    .definition>div:nth-child(2)>.descr>h3 {
-        font-size: 20px;
-        color: #101834;
-        line-height: 1;
-        font-weight: 700;
-        text-align: center;
-        font-family: sans-serif;
-    }
-    
-    .definition>div:nth-child(2)>.descr>p {
-        font-size: 18px;
-        color: #101834;
-        line-height: 1.4;
-        text-align: center;
-        font-family: sans-serif;
-        margin-top: 8px;
-    }
-    
-    .features_page>div>a {
-        color: #196CFF;
-    }
-    
-    .features_page>div {
-        width: 15%;
-        margin: auto;
-        font-size: 18px;
-        background-color: transparent;
-        border: 2px solid #196CFF;
-        padding: 15px;
-        text-align: center;
-        font-weight: bold;
-        font-family: sans-serif;
-        border-radius: 5px;
-        margin-top: 50px;
-        text-decoration: none;
-        margin-bottom: 50px;
-    }
-    
-    .home_page>.data {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .home_page>.data>div {
-        text-align: center;
-        width: 80%;
-        margin: auto;
-    }
-    
-    .data>div>h1 {
-        font-size: 48px;
-        color: #101834;
-        line-height: 1;
-        font-weight: 700;
-        font-family: sans-serif;
-        margin-top: 50px;
-    }
-    
-    .data>.count {
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-columns: 22% 22% 22%;
-        gap: 10%;
-        justify-content: center;
-    }
-    
-    .count>div>div {
-        border: 1px solid #101834;
-        margin-top: 0;
-    }
-    
-    .count>div>h1 {
-        font-size: 64px;
-        line-height: 0.8;
-        color: #101834;
-        text-align: center;
-        font-weight: 700;
-        margin-bottom: 0;
-        font-family: sans-serif;
-    }
-    
-    .count>div>p {
-        font-size: 20px;
-        line-height: 1;
-        font-family: sans-serif;
-        color: #101834;
-        text-align: center;
-        font-weight: 500;
-        margin-top: 50px;
-    }
-    
-    .home_page>.stories {
-        display: flex;
-        margin: 100px;
-        justify-content: center;
-    }
-    
-    .home_page>.stories>div {
-        width: 45%;
-    }
-    
-    .stories>div>img {
-        max-width: 100%;
-    }
-    
-    .stories>.descr {
-        text-align: center;
-    }
-    
-    .stories>.descr>h2 {
-        font-size: 38px;
-        color: #101834;
-        font-weight: 550;
-        font-family: sans-serif;
-    }
-    
-    .stories>.descr>p {
-        font-size: 20px;
-        margin-top: 18px;
-        color: #196CFF;
-        line-height: 1.4;
-        font-family: sans-serif;
-    }
-    
-    .stories>.descr>div {
-        width: 40%;
-        margin: auto;
-        padding: 15px;
-        text-decoration: none;
-        border: 2px solid #196CFF;
-        border-radius: 5px;
-        font-size: 16px;
-        text-align: center;
-        font-family: sans-serif;
-        margin-top: 60px;
-    }
-    
-    .descr>div>a {
-        color: #196CFF;
-        font-weight: 600;
-    }
-    
-    footer {
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-columns: 15% 15% 15% 15% 15%;
-        justify-content: center;
-        background-color: #ECEDEF;
-    }
-    
-    .get_started {
-        background-image: url("https://static.mentimeter.com/static/images/menti-pattern.png");
-        background-size: cover;
-        height: 300px;
-        background-position: center;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .get_started>div {
-        text-align: center;
-        color: #ffffff;
-        max-width: 60%;
-        margin: 10px auto;
-    }
-    
-    .get_started>div>div>h1 {
-        font-family: sans-serif;
-        font-size: 55px;
-        font-weight: 500;
-    }
-    
-    .get_started>div>.go_to_signup>div {
-        width: 20%;
-        padding: 15px;
-        color: #196CFF;
-        font-size: 25px;
-        font-family: sans-serif;
-        background-color: #ffffff;
-        text-decoration: none;
-        margin: auto;
-        font-weight: 500;
-        border-radius: 5px;
-    }
-    
-    .get_started>div>.go_to_signup>div>span>a {
-        color: #196CFF;
-    }
-    
-    .home_page>.video {
-        background-image: url("https://static.mentimeter.com/content-web/prod/_next/static/images/graphic-elements-118cd4d8fe1a8dd4456a1022c8ebdd8b.png");
-        height: 500px;
-        background-size: contain;
-        text-align: center;
-        align-items: center;
-        margin-bottom: 100px;
-    }
-    
-    .home_page>.video>div {
-        width: 70%;
-        background-image: url("home_img/video_background.png");
-        margin: auto;
-        height: 500px;
-        align-items: center;
-        display: flex;
-        background-color: transparent;
-        opacity: 0.7;
-    }
-    
-    .home_page>.video>div>div {
-        width: 100%;
-    }
-    
-    .home_page>.video>div>div>div>a {
-        color: #196CFF;
-    }
-    
-    .home_page>.video>div>div>div {
-        width: 20%;
-        margin: auto;
-        padding: 15px;
-        border: 2px solid #196CFF;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: 600;
-        font-family: sans-serif;
-    }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.home_page>.vote_tab {
+    background-color: #ECEDEF;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+}
+
+.vote_tab>input {
+    height: 35px;
+    width: 60%;
+    margin: auto;
+    border: 2px solid rgb(155, 147, 147);
+}
+
+.vote_tab>button {
+    background-color: rgb(25, 108, 255);
+    border-color: transparent;
+    color: #ffffff;
+    cursor: not-allowed;
+    text-align: center;
+    opacity: 0.4;
+    font-size: 16px;
+    font-family: sans-serif;
+    height: 80%;
+    width: 80px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.top_nav {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.top_nav>div {
+    width: 33%
+}
+
+.top_nav>.logo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.top_nav>.details {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.top_nav>.login_signup {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logo>div:nth-child(2) {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.details>div {
+    width: 20%;
+    font-size: 15px;
+    font-weight: 550;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+#respective_page {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.details>div>a:hover {
+    color: rgb(25, 108, 255);
+}
+
+.login_signup>div {
+    width: 20%;
+    font-size: 15px;
+    font-weight: 550;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+.login_signup>div:nth-child(1) {
+    background-color: rgb(25, 108, 255);
+    border-radius: 5px;
+    color: white;
+}
+
+
+/*    till here for nav bar  */
+
+.pop_up {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(255, 128, 171);
+    align-items: center;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.pop_up>.pop_up_msg {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30%;
+}
+
+.pop_up>.pop_up_msg>div:nth-child(1) {
+    color: #101834;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.pop_up>.pop_up_msg>div:nth-child(2) {
+    color: #101834;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: 2px solid #101834;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.det_box {
+    max-width: 100%;
+}
+
+.det_box>.details {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.det_box>.details>h1 {
+    font-size: 48px;
+    color: #101834;
+    line-height: 1;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.det_box>.details>p {
+    font-size: 25px;
+    color: rgba(16, 24, 52, 0.75);
+    line-height: 1.4;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.details>div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.details>div>div {
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(25, 108, 255);
+    margin: auto;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.details>#descr {
+    font-size: 16px;
+    color: rgba(16, 24, 52, 0.5);
+    line-height: 1.4;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 4%;
+}
+
+
+/* Definition od Mentimeter part */
+
+.home_page>.definition {
+    width: 100%;
+    background-color: #ECEDEF;
+}
+
+.home_page>.definition>div>h2 {
+    color: #196CFF;
+    text-align: center;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 48px;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+
+.home_page>.definition {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_page>.definition>div:nth-child(2) {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 20% 20% 20%;
+    gap: 5%;
+    place-content: center;
+}
+
+.image>div {
+    margin-bottom: 0;
+}
+
+.definition>div:nth-child(2)>.descr>h3 {
+    font-size: 20px;
+    color: #101834;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.definition>div:nth-child(2)>.descr>p {
+    font-size: 18px;
+    color: #101834;
+    line-height: 1.4;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 8px;
+}
+
+.features_page>div>a {
+    color: #196CFF;
+}
+
+.features_page>div {
+    width: 15%;
+    margin: auto;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #196CFF;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 5px;
+    margin-top: 50px;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.home_page>.data {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_page>.data>div {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.data>div>h1 {
+    font-size: 48px;
+    color: #101834;
+    line-height: 1;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.data>.count {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 22% 22% 22%;
+    gap: 10%;
+    justify-content: center;
+}
+
+.count>div>div {
+    border: 1px solid #101834;
+    margin-top: 0;
+}
+
+.count>div>h1 {
+    font-size: 64px;
+    line-height: 0.8;
+    color: #101834;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+
+.count>div>p {
+    font-size: 20px;
+    line-height: 1;
+    font-family: sans-serif;
+    color: #101834;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.home_page>.stories {
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+}
+
+.home_page>.stories>div {
+    width: 45%;
+}
+
+.stories>div>img {
+    max-width: 100%;
+}
+
+.stories>.descr {
+    text-align: center;
+}
+
+.stories>.descr>h2 {
+    font-size: 38px;
+    color: #101834;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+.stories>.descr>p {
+    font-size: 20px;
+    margin-top: 18px;
+    color: #196CFF;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.stories>.descr>div {
+    width: 40%;
+    margin: auto;
+    padding: 15px;
+    text-decoration: none;
+    border: 2px solid #196CFF;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+
+.descr>div>a {
+    color: #196CFF;
+    font-weight: 600;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    justify-content: center;
+    background-color: #ECEDEF;
+}
+
+.get_started {
+    background-image: url("https://static.mentimeter.com/static/images/menti-pattern.png");
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.get_started>div {
+    text-align: center;
+    color: #ffffff;
+    max-width: 60%;
+    margin: 10px auto;
+}
+
+.get_started>div>div>h1 {
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.get_started>div>.go_to_signup>div {
+    width: 15%;
+    padding: 10px;
+    color: #196CFF;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    text-decoration: none;
+    margin: auto;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+.get_started>div>.go_to_signup>div>span>a {
+    color: #196CFF;
+}
+
+.home_page>.video {
+    background-image: url("https://static.mentimeter.com/content-web/prod/_next/static/images/graphic-elements-118cd4d8fe1a8dd4456a1022c8ebdd8b.png");
+    height: 500px;
+    background-size: contain;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.home_page>.video>div {
+    width: 70%;
+    background-image: url("home_img/video_background.png");
+    margin: auto;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    opacity: 0.7;
+}
+
+.home_page>.video>div>div {
+    width: 100%;
+}
+
+.home_page>.video>div>div>div>a {
+    color: #196CFF;
+}
+
+.home_page>.video>div>div>div {
+    width: 15%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #196CFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-radius: 5px;
+}

@@ -153,6 +153,11 @@ a {
     font-family: sans-serif;
 }
 
+.solution_page>.business>div>#learn_more {
+    background-color: white;
+    border: none;
+}
+
 .business>div>span {
     color: #196CFF;
     font-size: 16px;
@@ -235,6 +240,7 @@ a {
     padding: 15px;
     font-size: 18px;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 .get_started {
@@ -260,15 +266,15 @@ a {
 }
 
 .get_started>div>.go_to_signup>div {
-    width: 20%;
+    width: 18%;
     padding: 15px;
     color: #196CFF;
-    font-size: 25px;
+    font-size: 20px;
     font-family: sans-serif;
     background-color: #ffffff;
     text-decoration: none;
     margin: auto;
-    font-weight: 500;
+    font-weight: 550;
     border-radius: 5px;
 }
 
