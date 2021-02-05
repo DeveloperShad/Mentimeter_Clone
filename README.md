@@ -20,7 +20,7 @@ We devided this work in multiple parts as we were four people to work on it.
 ## In Detail Work Description
 ==================
 
-Here basically we created pages according to (www.mentimeter.com) and divided in beetween us and completed individually. We focused on every main page of the website, we haven't considered all the pages. We have used content of the (www.mentimeter.com), content as in texts and images and placed them on the new pages as they were placed on the (www.mentimeter.com). Basically we created CSS and Animations according to the (www.mentimeter.com)
+Here basically we created pages according to  [Mentimeter](www.mentimeter.com) and divided in beetween us and completed individually. We focused on every main page of the website, we haven't considered all the pages. We have used content of the  [Mentimeter](www.mentimeter.com), content as in texts and images and placed them on the new pages as they were placed on the  [Mentimeter](www.mentimeter.com). Basically we created CSS and Animations according to the  [Mentimeter](www.mentimeter.com)
 
 
 ## The Pages We Covered.
