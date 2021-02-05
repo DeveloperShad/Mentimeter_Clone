@@ -636,3 +636,189 @@ body {
         border-radius: 5px;
     }
 }
+
+
+
+#explore {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template: "explore_nav" "box1""box2""box3""box4";
+
+    margin: 20px 120px;
+}
+#explore_nav{
+    height: 50px;
+
+        font-weight: bold;
+        font-size: 30px;
+        grid-area: explore_nav;
+        text-align: center;
+    }
+#explore_box1 {
+    height: 350px;
+    grid-area: box1;
+}
+
+#explore_box2 {
+    height: 350px;
+    grid-area: box2;
+}
+
+#explore_box3 {
+    height: 350px;
+    grid-area: box3;
+}
+
+#explore_box4 {
+    height: 350px;
+    grid-area: box4;
+}
+
+.exp_img>img {
+    width: 30%;
+    margin:5% 35%;
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 660px) {
+    #explore {
+        grid-template: "explore_nav" "box1""box2""box3""box4";
+    }
+    #explore_nav{
+        height: 50px;
+        font-weight: bold;
+        font-size: 33px;
+        text-align: center;
+    }
+    #explore_box1 {
+        height: 300px;
+    }
+
+    #explore_box2 {
+        height: 300px;
+    }
+
+    #explore_box3 {
+        height: 300px;
+    }
+
+    #explore_box4 {
+        height: 300px;
+    }
+
+    .exp_img>img {
+        width: 30%;
+        margin:5% 33%;
+
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 800px) {
+    #explore {
+        grid-template: "explore_nav explore_nav explore_nav explore_nav"
+        "box1 box2 box3 box4";
+    }
+    #explore_nav{
+        height: 50px;
+        font-weight: bold;
+        font-size: 43px;
+        text-align: center;
+    }
+
+    #explore_box1 {
+        height: 320px;
+    }
+
+    #explore_box2 {
+        height: 320px;
+    }
+
+    #explore_box3 {
+        height: 320px;
+    }
+
+    #explore_box4 {
+        height: 320px;
+    }
+
+
+    .exp_img>img{
+        width: 50%;
+        margin:5% 25%;
+    }
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 1100px) {
+    #explore {
+        grid-template: "explore_nav explore_nav explore_nav explore_nav"
+        "box1 box2 box3 box4";
+
+    }
+    #explore_nav{
+        height: 50px;
+        font-weight: bold;
+        font-size: 43px;
+        text-align: center;
+    }
+
+    #explore_box1 {
+        height: 350px;
+    }
+
+    #explore_box2 {
+        height: 350px;
+    }
+
+    #explore_box3 {
+        height: 350px;
+    }
+
+    #explore_box4 {
+        height: 350px;
+    }
+
+    .explore_center {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .exp_img>img{
+        width: 50%;
+        margin:5% 25%;
+    }
+
+}
+
+
+
+
+
+
+
+.explore_center {
+    text-align: center;
+    font-size: 22px;
+    color: #101834;
+
+}
