@@ -39,9 +39,17 @@
         font-family: sans-serif;
     }
     
-    a {
+    #respective_page {
         color: black;
         text-decoration: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .details>div>a:hover {
+        color: rgb(25, 108, 255);
     }
     
     .login_signup>div {
@@ -364,6 +372,10 @@
         margin: auto;
         font-weight: 500;
         border-radius: 5px;
+    }
+    
+    .get_started>div>.go_to_signup>div>span>a {
+        color: #196CFF;
     }
     
     .home_page>.video {
