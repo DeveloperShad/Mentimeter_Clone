@@ -322,3 +322,85 @@
         color: #196CFF;
         font-weight: 600;
     }
+    
+    footer {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 15% 15% 15% 15% 15%;
+        justify-content: center;
+        background-color: #ECEDEF;
+    }
+    
+    .get_started {
+        background-image: url("https://static.mentimeter.com/static/images/menti-pattern.png");
+        background-size: cover;
+        height: 300px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .get_started>div {
+        text-align: center;
+        color: #ffffff;
+        max-width: 60%;
+        margin: 10px auto;
+    }
+    
+    .get_started>div>div>h1 {
+        font-family: sans-serif;
+        font-size: 55px;
+        font-weight: 500;
+    }
+    
+    .get_started>div>.go_to_signup>div {
+        width: 20%;
+        padding: 15px;
+        color: #196CFF;
+        font-size: 25px;
+        font-family: sans-serif;
+        background-color: #ffffff;
+        text-decoration: none;
+        margin: auto;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    
+    .home_page>.video {
+        background-image: url("https://static.mentimeter.com/content-web/prod/_next/static/images/graphic-elements-118cd4d8fe1a8dd4456a1022c8ebdd8b.png");
+        height: 500px;
+        background-size: contain;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    
+    .home_page>.video>div {
+        width: 70%;
+        background-image: url("home_img/video_background.png");
+        margin: auto;
+        height: 500px;
+        align-items: center;
+        display: flex;
+        background-color: transparent;
+        opacity: 0.7;
+    }
+    
+    .home_page>.video>div>div {
+        width: 100%;
+    }
+    
+    .home_page>.video>div>div>div>a {
+        color: #196CFF;
+    }
+    
+    .home_page>.video>div>div>div {
+        width: 20%;
+        margin: auto;
+        padding: 15px;
+        border: 2px solid #196CFF;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
