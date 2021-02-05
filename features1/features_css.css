@@ -316,7 +316,18 @@ a {
     border-width: 2px;
     height: 40px;
     opacity: 1;
+    border-radius: 10px;
 
+}
+.hover:hover{
+    background-color: gray;
+
+}
+
+
+button:hover{
+    background-color: #196CFF;
+    color: white;
 }
 
 .bgc-g {
@@ -673,7 +684,7 @@ a {
     color: #196CFF;
     font-size: 25px;
     font-family: sans-serif;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     text-decoration: none;
     margin: auto;
     font-weight: 500;
