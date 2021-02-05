@@ -1,0 +1,825 @@
+.top_nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_nav>div {
+    width: 33%
+}
+
+.top_nav>.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_nav>.details {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.top_nav>.login_signup {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logo>div:nth-child(2) {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.top_nav>.details>div {
+    width: 20%;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.login_signup>div {
+    width: 20%;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+.login_signup>div:nth-child(1) {
+    background-color: rgb(25, 108, 255);
+    border-radius: 5px;
+    color: white;
+}
+
+.solution_page {
+    max-width: 100%;
+}
+
+.headings>h1 {
+    font-family: sans-serif;
+    font-size: 54px;
+    font-weight: 575;
+    text-align: center;
+    color: #101834;
+    line-height: 1;
+}
+
+.headings>p {
+    font-family: sans-serif;
+    color: #6D7283;
+    font-size: 24px;
+    font-family: MentiText;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.convenience {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.convenience>div>video {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.solution_page>.decr {
+    max-width: 60%;
+    font-family: sans-serif;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.solution_page>.decr>h1 {
+    font-size: 48px;
+    color: #101834;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.solution_page>.decr>p {
+    font-size: 25px;
+    color: rgba(16, 24, 52, 0.75);
+    line-height: 1.4;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+
+.presentation_use>.pres_image {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.presentation_use>.pres_image>div {
+    width: 25%;
+    margin: 8%;
+    text-align: center;
+}
+
+.pres_image>div>img {
+    max-width: 100%;
+}
+
+.pres_image>div>p {
+    color: #101834;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+.solution_page>.business {
+    background-image: url("https://static.mentimeter.com/content-web/prod/_next/static/images/pink-balloons-49f757fc0ac5aca935816d8e8f7618fb.png");
+    height: 650px;
+    background-size: contain;
+    margin: 20px 0;
+}
+
+.solution_page>.business>div {
+    max-width: 40%;
+    background-color: #FFD6DB;
+    padding: 50px 100px;
+    font-family: sans-serif;
+}
+
+.solution_page>.business>div>#learn_more {
+    background-color: white;
+    border: none;
+}
+
+.business>div>span {
+    color: #196CFF;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 550;
+}
+
+.business>div>h1 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.business>div>p {
+    color: rgba(16, 24, 52, 0.75);
+    font-size: 22px;
+    line-height: 1.4;
+    max-width: 100%;
+}
+
+.mentimeter_details {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 50% 50%;
+    box-sizing: content-box;
+    max-width: 100%;
+    box-sizing: content-box;
+}
+
+.mentimeter_details>div {
+    width: 100%;
+}
+
+.mentimeter_details>.image_box>img {
+    max-width: 100%;
+}
+
+.mentimeter_details>.details>div {
+    max-width: 90%;
+    margin: 30px 50px;
+    font-family: sans-serif;
+}
+
+.mentimeter_details>.details>div>span {
+    color: #196CFF;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+.mentimeter_details>.details>div>h1 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.mentimeter_details>.details>div>p {
+    color: rgba(16, 24, 52, 0.75);
+    font-size: 20px;
+    line-height: 1.4;
+    max-width: 100%;
+}
+
+#learn_more {
+    display: flex;
+    max-width: 20%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #196CFF;
+    color: #196CFF;
+    background-color: transparent;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.get_started {
+    background-image: url("https://static.mentimeter.com/static/images/menti-pattern.png");
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.get_started>div {
+    text-align: center;
+    color: #ffffff;
+    max-width: 60%;
+    margin: 10px auto;
+}
+
+.get_started>div>div>h1 {
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.get_started>div>.go_to_signup>div {
+    width: 18%;
+    padding: 15px;
+    color: #196CFF;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    text-decoration: none;
+    margin: auto;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+.bottom-footer {
+    width: 100%;
+    min-height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 0.3fr 1.5fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    background-color: #ECEDEF;
+    gap: 10px;
+}
+
+.padding-content {
+    padding-top: 30px;
+}
+
+.padding-logo {
+    padding-top: 45px;
+}
+
+.padding-mentimeter {
+    padding-top: 23px;
+}
+
+.padding-connect {
+    padding-top: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    .headings>h1 {
+        font-size: 35px;
+        font-weight: 550;
+    }
+    .convenience {
+        text-align: center;
+        margin-top: 70px;
+    }
+    .convenience>div>video {
+        max-width: 80%;
+        max-height: 80%;
+    }
+    .solution_page>.decr {
+        max-width: 80%;
+    }
+    .solution_page>.decr>h1 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .solution_page>.decr>p {
+        font-size: 18px;
+    }
+    .presentation_use>.pres_image {
+        width: 90%;
+        flex-direction: column;
+    }
+    .presentation_use>.pres_image>div {
+        width: 40%;
+        text-align: center;
+        margin: auto;
+    }
+    .pres_image>div>p {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .solution_page>.business {
+        background-image: url("https://static.mentimeter.com/content-web/prod/_next/static/images/pink-balloons-49f757fc0ac5aca935816d8e8f7618fb.png");
+        height: 750px;
+        background-size: contain;
+        margin: 20px 0;
+    }
+    .solution_page>.business>div {
+        max-width: 90%;
+        padding: 25px 50px;
+    }
+    .business>div>span {
+        color: #196CFF;
+        font-size: 16px;
+        line-height: 1.4;
+        font-weight: 550;
+    }
+    .business>div>h1 {
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-weight: 500;
+    }
+    .business>div>p {
+        font-size: 18px;
+    }
+    .mentimeter_details {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        box-sizing: content-box;
+    }
+    .mentimeter_details {
+        max-width: 100%;
+        box-sizing: content-box;
+    }
+    .mentimeter_details>div {
+        width: 100%;
+    }
+    .mentimeter_details>.image_box>img {
+        max-width: 100%;
+    }
+    .mentimeter_details>.image_box {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .mentimeter_details>.details>div {
+        max-width: 90%;
+        margin: 30px 50px;
+        font-family: sans-serif;
+    }
+    .mentimeter_details>.details>div>span {
+        color: #196CFF;
+        font-size: 16px;
+        line-height: 1.4;
+        font-family: sans-serif;
+        font-weight: 550;
+    }
+    .mentimeter_details>.details>div>h1 {
+        font-size: 38px;
+        font-weight: 500;
+    }
+    .mentimeter_details>.details>div>p {
+        font-size: 18px;
+    }
+    .det1 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .img1 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .det3 {
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .img3 {
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    #learn_more {
+        max-width: 30%;
+        border-radius: 5px;
+    }
+    .get_started {
+        background-image: url("https://static.mentimeter.com/static/images/menti-pattern.png");
+        background-size: cover;
+        height: 250px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .get_started>div {
+        max-width: 80%;
+    }
+    .get_started>div>div>h1 {
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .get_started>div>.go_to_signup>div {
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width: 758px) {
+    .headings>h1 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .convenience {
+        text-align: center;
+        margin-top: 70px;
+    }
+    .convenience>div>video {
+        max-width: 90%;
+        max-height: 90%;
+    }
+    .solution_page>.decr {
+        max-width: 80%;
+    }
+    .solution_page>.decr>h1 {
+        font-size: 48px;
+        font-weight: 600;
+    }
+    .solution_page>.decr>p {
+        font-size: 23px;
+    }
+    .presentation_use>.pres_image {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+    .presentation_use>.pres_image>div {
+        width: 30%;
+        margin: 5%;
+        text-align: center;
+    }
+    .solution_page>.business {
+        background-image: url("https://static.mentimeter.com/content-web/prod/_next/static/images/pink-balloons-49f757fc0ac5aca935816d8e8f7618fb.png");
+        height: 800px;
+        background-size: contain;
+        margin: 20px 0;
+    }
+    .solution_page>.business>div {
+        max-width: 100%;
+    }
+    .business>div>span {
+        color: #196CFF;
+        font-size: 16px;
+        line-height: 1.4;
+        font-weight: 550;
+    }
+    .business>div>h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .mentimeter_details {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 50% 50%;
+        box-sizing: content-box;
+        max-width: 100%;
+        box-sizing: content-box;
+    }
+    .mentimeter_details>div {
+        width: 100%;
+    }
+    .mentimeter_details>.image_box>img {
+        max-width: 100%;
+    }
+    .mentimeter_details>.details>div {
+        max-width: 100%;
+        margin: 30px 50px;
+        font-family: sans-serif;
+    }
+    .mentimeter_details>.details>div>span {
+        color: #196CFF;
+        font-size: 16px;
+        line-height: 1.4;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+    .mentimeter_details>.details>div>h1 {
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-weight: 500;
+    }
+    .mentimeter_details>.details>div>p {
+        color: rgba(16, 24, 52, 0.75);
+        font-size: 16px;
+        line-height: 1.4;
+        max-width: 90%;
+    }
+    #learn_more {
+        display: flex;
+        max-width: 20%;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #196CFF;
+        color: #196CFF;
+        background-color: transparent;
+        padding: 15px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .get_started {
+        background-size: cover;
+        height: 200px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .get_started>div {
+        max-width: 80%;
+    }
+    .get_started>div>div>h1 {
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .get_started>div>.go_to_signup>div {
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .top_nav {
+        display: flex;
+        flex-direction: row;
+    }
+    .top_nav>div {
+        width: 33%
+    }
+    .top_nav>.logo {
+        display: flex;
+        flex-direction: row;
+    }
+    .top_nav>.details {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .top_nav>.login_signup {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .logo>div:nth-child(2) {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    .top_nav>.details>div {
+        width: 20%;
+        font-size: 18px;
+        font-weight: 550;
+        text-align: center;
+        align-items: center;
+        padding: 15px;
+        font-family: sans-serif;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    .login_signup>div {
+        width: 20%;
+        font-size: 18px;
+        font-weight: 550;
+        text-align: center;
+        align-items: center;
+        padding: 15px;
+        font-family: sans-serif;
+    }
+    .login_signup>div:nth-child(1) {
+        background-color: rgb(25, 108, 255);
+        border-radius: 5px;
+        color: white;
+    }
+    .solution_page {
+        max-width: 100%;
+    }
+    .headings>h1 {
+        font-family: sans-serif;
+        font-size: 54px;
+        font-weight: 575;
+        text-align: center;
+        color: #101834;
+        line-height: 1;
+    }
+    .headings>p {
+        font-family: sans-serif;
+        color: #6D7283;
+        font-size: 24px;
+        font-family: MentiText;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .convenience {
+        text-align: center;
+        margin-top: 100px;
+    }
+    .convenience>div>video {
+        max-width: 60%;
+        max-height: 60%;
+    }
+    .solution_page>.decr {
+        max-width: 60%;
+        font-family: sans-serif;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .solution_page>.decr>h1 {
+        font-size: 48px;
+        color: #101834;
+        font-weight: 700;
+        font-family: sans-serif;
+        margin-bottom: 10px;
+    }
+    .solution_page>.decr>p {
+        font-size: 25px;
+        color: rgba(16, 24, 52, 0.75);
+        line-height: 1.4;
+        font-family: sans-serif;
+        margin-top: 0;
+    }
+    .presentation_use>.pres_image {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+    }
+    .presentation_use>.pres_image>div {
+        width: 25%;
+        margin: 8%;
+        text-align: center;
+    }
+    .pres_image>div>img {
+        max-width: 100%;
+    }
+    .pres_image>div>p {
+        color: #101834;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 550;
+    }
+    .solution_page>.business {
+        background-image: url("https://static.mentimeter.com/content-web/prod/_next/static/images/pink-balloons-49f757fc0ac5aca935816d8e8f7618fb.png");
+        height: 650px;
+        background-size: contain;
+        margin: 20px 0;
+    }
+    .solution_page>.business>div {
+        max-width: 40%;
+        background-color: #FFD6DB;
+        padding: 50px 100px;
+        font-family: sans-serif;
+    }
+    .solution_page>.business>div>#learn_more {
+        background-color: white;
+        border: none;
+    }
+    .business>div>span {
+        color: #196CFF;
+        font-size: 16px;
+        line-height: 1.4;
+        font-weight: 550;
+    }
+    .business>div>h1 {
+        font-size: 48px;
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-weight: 700;
+    }
+    .business>div>p {
+        color: rgba(16, 24, 52, 0.75);
+        font-size: 22px;
+        line-height: 1.4;
+        max-width: 100%;
+    }
+    .mentimeter_details {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 50% 50%;
+        box-sizing: content-box;
+        max-width: 100%;
+        box-sizing: content-box;
+    }
+    .mentimeter_details>div {
+        width: 100%;
+    }
+    .mentimeter_details>.image_box>img {
+        max-width: 100%;
+    }
+    .mentimeter_details>.details>div {
+        max-width: 90%;
+        margin: 30px 50px;
+        font-family: sans-serif;
+    }
+    .mentimeter_details>.details>div>span {
+        color: #196CFF;
+        font-size: 16px;
+        line-height: 1.4;
+        font-family: sans-serif;
+        font-weight: 550;
+    }
+    .mentimeter_details>.details>div>h1 {
+        font-size: 48px;
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-weight: 700;
+    }
+    .mentimeter_details>.details>div>p {
+        color: rgba(16, 24, 52, 0.75);
+        font-size: 20px;
+        line-height: 1.4;
+        max-width: 100%;
+    }
+    #learn_more {
+        display: flex;
+        max-width: 20%;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #196CFF;
+        color: #196CFF;
+        background-color: transparent;
+        padding: 15px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .get_started {
+        background-image: url("https://static.mentimeter.com/static/images/menti-pattern.png");
+        background-size: cover;
+        height: 300px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .get_started>div {
+        text-align: center;
+        color: #ffffff;
+        max-width: 60%;
+        margin: 10px auto;
+    }
+    .get_started>div>div>h1 {
+        font-family: sans-serif;
+        font-size: 55px;
+        font-weight: 500;
+    }
+    .get_started>div>.go_to_signup>div {
+        width: 18%;
+        padding: 15px;
+        color: #196CFF;
+        font-size: 20px;
+        font-family: sans-serif;
+        background-color: #ffffff;
+        text-decoration: none;
+        margin: auto;
+        font-weight: 550;
+        border-radius: 5px;
+    }
+    .bottom-footer {
+        width: 100%;
+        min-height: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 0.3fr 1.5fr 1fr 1fr 1fr 1fr 2fr;
+        grid-template-rows: 1fr;
+        background-color: #ECEDEF;
+        gap: 10px;
+    }
+    .padding-content {
+        padding-top: 30px;
+    }
+    .padding-logo {
+        padding-top: 45px;
+    }
+    .padding-mentimeter {
+        padding-top: 23px;
+    }
+    .padding-connect {
+        padding-top: 250px;
+    }
+}
