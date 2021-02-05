@@ -1,3 +1,66 @@
+.top_nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_nav>div {
+    width: 33%
+}
+
+.top_nav>.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_nav>.details {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.top_nav>.login_signup {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logo>div:nth-child(2) {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.top_nav>.details>div {
+    width: 20%;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.login_signup>div {
+    width: 20%;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+.login_signup>div:nth-child(1) {
+    background-color: rgb(25, 108, 255);
+    border-radius: 5px;
+    color: white;
+}
+
+
 
 .header{
     font-family: sans-serif;
