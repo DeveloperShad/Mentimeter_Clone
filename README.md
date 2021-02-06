@@ -7,13 +7,13 @@
 This is our first project at Masai School after learning the JavaScript and HTML, We had task of creating replica of the [Mentimeter](https://www.mentimeter.com).
 We devided this work in multiple parts as we were four people to work on it.
 
-## Our Team
+## Our Team( Bhima from Samurai 2)
 ===================================
 
 * Prasad Birari
 * Ajay Kumar
-* Satyaprakash P
-* Awanar Sad
+* Sathya prakash P
+* Anwar Shad
 
 
 
