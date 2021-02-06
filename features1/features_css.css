@@ -316,7 +316,18 @@ a {
     border-width: 2px;
     height: 40px;
     opacity: 1;
+    border-radius: 10px;
 
+}
+.hover:hover{
+    background-color: gray;
+
+}
+
+
+button:hover{
+    background-color: #196CFF;
+    color: white;
 }
 
 .bgc-g {
@@ -673,7 +684,7 @@ a {
     color: #196CFF;
     font-size: 25px;
     font-family: sans-serif;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     text-decoration: none;
     margin: auto;
     font-weight: 500;
@@ -778,7 +789,7 @@ a {
     #explore_nav{
         height: 50px;
         font-weight: bold;
-        font-size: 33px;
+        font-size: 25px;
         text-align: center;
     }
     #explore_box1 {
@@ -1280,19 +1291,19 @@ a {
 
     }
     #live_explore_box1 {
-        height: 250px;
+        height: 300px;
     }
 
     #live_explore_box2 {
-        height: 250px;
+        height: 300px;
     }
 
     #live_explore_box3 {
-        height: 250px;
+        height: 300px;
     }
 
     #live_explore_box4 {
-        height: 250px;
+        height: 300px;
     }
 
     .explore_center {
@@ -1309,3 +1320,247 @@ a {
 /* CSS For Sixth Block Of Live-Polling page in Feature Page Ended    */
 
 
+
+/* Live Polling Second Block of Feature Polling Page Started */
+
+#live_tool {
+    height: 360px;
+    grid-area: box1;
+
+}
+.exp_img1>img {
+    width: 60%;
+    margin:1% 20%;
+
+}
+.live_tool_explore {
+    text-align: center;
+    font-size: 26px;
+    color: #101834;
+    margin:1% 20%;
+
+
+}
+.live_tool_explore1{
+    text-align: center;
+    font-size: 19px;
+    color: rgba(16, 24, 52, 0.75);
+    margin:1% 5%;
+
+}
+
+@media only screen and (max-width: 710px) {
+    #live_tool {
+        height: 380px;
+        grid-area: box1;
+    
+    }
+    .exp_img1>img {
+        width: 90%;
+        margin:1% 5%;
+    
+    }
+    .live_tool_explore {
+        text-align: center;
+        font-size: 26px;
+        color: #101834;
+        margin:1% 10%;
+    
+    
+    }
+    .live_tool_explore1{
+        text-align: center;
+        font-size: 16px;
+        color: rgba(16, 24, 52, 0.75);
+        margin:1% 5%;
+    
+    }
+}
+
+
+
+
+@media only screen and (min-width: 930px) {
+    #live_tool {
+        height: 420px;
+        grid-area: box1;
+
+    }
+    .exp_img1>img {
+        width: 60%;
+        margin:1% 20%;
+    
+    }
+    .live_tool_explore {
+        text-align: center;
+        font-size: 32px;
+        color: #101834;
+        margin:1% 25%;
+
+    
+    }
+    .live_tool_explore1{
+        text-align: center;
+        font-size: 20px;
+        color: rgba(16, 24, 52, 0.75);
+        margin:1% 15%;
+
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 1100px) {
+    #live_tool {
+        height: 540px;
+        grid-area: box1;
+
+    }
+    .exp_img1>img {
+        width: 60%;
+        margin:1% 20%;
+    
+    }
+    .live_tool_explore {
+        text-align: center;
+        font-size: 44px;
+        color: #101834;
+        margin:1% 20%;
+
+    
+    }
+    .live_tool_explore1{
+        text-align: center;
+        font-size: 22px;
+        color: rgba(16, 24, 52, 0.75);
+        margin:1% 15%;
+
+    }
+    
+}
+/* Live Polling Second Block of Feature Polling Page Ended */
+ 
+/*  Footer CSS*/
+/* .bottom-footer{
+    width: 100%;
+    min-height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:1fr 0.3fr 1.5fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows:1fr;
+    background-color: #ECEDEF;
+    gap: 10px;
+​
+} */
+.padding-content{
+    padding-top: 30px;
+}
+.padding-logo{
+    padding-top: 45px;
+}
+.padding-mentimeter{
+    padding-top: 23px;
+}
+.padding-connect{
+    padding-top: 250px;
+}
+@media only screen and (max-width: 600px) {
+    .bottom-footer{
+        grid-template: " a a"
+                         "b c "
+                         "d d "
+                         "e e "
+                         "f f"
+                         "g g"
+                         "h h";
+    }
+    .bottom-footer{
+        width: 100%;
+        min-height: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows:auto;
+        background-color: #ECEDEF;
+        gap: 10px;
+    
+    }
+}
+@media only screen and (min-width: 600px) {
+    .bottom-footer{
+        grid-template: " a b c d e f g h";
+    }
+    .bottom-footer{
+        width: 100%;
+        min-height: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns:1fr 0.3fr 1.5fr 1fr 1fr 1fr 1fr 2fr;
+        grid-template-rows:1fr;
+        background-color: #ECEDEF;
+        gap: 10px;
+    
+    }
+    .line{
+        width:400px
+    }
+}
+    @media only screen and (min-width: 768px) {
+        .bottom-footer{
+            grid-template: " a b c d e f g h";
+        }
+        .bottom-footer{
+            width: 100%;
+            min-height: 400px;
+            margin: auto;
+            display: grid;
+            grid-template-columns:1fr 0.3fr 1.5fr 1fr 1fr 1fr 1fr 2fr;
+            grid-template-rows:1fr;
+            background-color: #ECEDEF;
+            gap: 10px;
+        
+        }
+    }
+        @media only screen and (min-width: 992px) {
+            .bottom-footer{
+                grid-template: " a b c d e f g h";
+            }
+            .bottom-footer{
+                width: 100%;
+                min-height: 400px;
+                margin: auto;
+                display: grid;
+                grid-template-columns:1fr 0.3fr 1.5fr 1fr 1fr 1fr 1fr 2fr;
+                grid-template-rows:1fr;
+                background-color: #ECEDEF;
+                gap: 10px;
+            
+            }
+        }
+        #footer1{
+            grid-area: a;
+        }
+        #footer2{
+            grid-area: b;
+        }
+        #footer3{
+            grid-area: c;
+        }
+        #footer4{
+            grid-area: d;
+        }
+        #footer5{
+            grid-area: e;
+        }
+        #footer6{
+            grid-area: f;
+        }
+        #footer7{
+            grid-area: g;
+        }
+        #footer8{
+            grid-area: h;
+        }
+
+/* Footer Code End */

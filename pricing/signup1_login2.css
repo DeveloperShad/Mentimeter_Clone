@@ -1,0 +1,69 @@
+.sign-box{
+    display: grid;
+    width: 30%;
+    min-height: 400px;
+    margin: auto;
+    border: 2px solid lightslategray;
+   
+}
+.sign-box>div{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.fb-gmail > div{
+    width: 100%;
+    min-height: 33px;
+    border: 2px solid lightslategray;
+    margin-top: 10px;
+    background-color: #166FE5;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.flex1 , .flex2{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+}
+.flex1>div{
+    color: white;  
+}
+.fb-gmail > div:nth-child(2){
+    background-color:white;
+}
+.fb-gmail > div:nth-child(2):hover{
+    background-color:lightgrey;
+}
+.box{
+    width: 98%;
+    height: 30px;
+}
+.button{
+    width: 100%;
+    height: 40px;
+    background-color: #166FE5;
+    color: white;
+    font-size: 15px;
+}
+.align-left{
+    text-align: left;
+}
+.blue{
+    color: blue;
+}
+.button:hover {
+    background-color: darkblue;
+  }
+.flex1:hover {
+    background-color: darkblue;
+  }
+  .white{
+      color: white;
+  }
+  .black{
+      color: black;
+  }
+  .blue{
+      color: rgba(0, 0, 255, 0.849);
+  }

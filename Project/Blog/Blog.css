@@ -1,29 +1,46 @@
-.sec1 {
-    margin-bottom: 50px;
-}
+
 .sec1 > .img1 {
     display: flex;
     justify-content: center;
     width: 90%;
     margin: auto;
+        box-sizing: border-box;
 }
 .sec1 > .img1 > div {
     width: 50%;
+    /* min-width: 200px; */
     margin: 5%;
     text-align: left;
     color: #3A4057;
     font-family: sans-serif;
     
 }
-.sec1 > .img1 > div > img {
+.sec1 > .img1 > div + div {
+    padding: 50px;
+    margin-left: -60px;
+}
+/* .sec1 > .img1 > div > img {
     
+} */
+.img1> div> h3> a {
+    text-decoration: none;
+    color: #3A4057; 
+    font-family: sans-serif;
+}
+.img1> div> h3> a:hover {
+    text-decoration: underline;
 }
 .img1> div> a{
     font-size: 45px;
     font-family: sans-serif;
     font-weight: 500px;
     color: #3A4057; 
+    text-decoration: none;
 }
+.img1> div> a:hover {
+    text-decoration: underline;
+}
+
 
 
 
@@ -38,19 +55,86 @@
     margin: auto;
     justify-content: center;
 }
-.sec2 > .awesome > div {
+.sec2 > .awesome > a {
     width: 30%;
     margin: 3%;
+    font-size: 15px;
     text-align: left;
     color: #3A4057;
     font-family: sans-serif;
-}
-.sec2 > .awesome > div > div {
-    width: 100%;
-}
-.sec2 > .awesome > div:hover {
+    margin-bottom: 100px;
+    text-decoration: none;
     
 }
 
+.sec2 > .awesome > a:hover {
+    text-decoration: underline;
+}
 
 
+
+
+
+
+
+.sec3 > a {
+    margin-left: 160px;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #3A4057;
+    text-decoration: none;
+}
+.sec3 > a:hover {
+    text-decoration: underline;
+}
+.sec3 > .mcc {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+.sec3 > .mcc > h1 {
+    text-align: left;
+    color: #3A4057;
+}
+.sec3 > .mcc > a {
+    width:20%;
+    margin: 3.2%;
+    font-size: 15px;
+    text-align: left;
+    color: #3A4057;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+    text-decoration: none;
+    
+}
+
+.sec3 > .mcc > a:hover {
+text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {} 
+
+
+/* Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {} 
