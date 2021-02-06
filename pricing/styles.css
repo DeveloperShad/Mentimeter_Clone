@@ -1,3 +1,5 @@
+/* top nav starts here */
+
 .top_nav {
     display: flex;
     flex-direction: row;
@@ -50,7 +52,7 @@ a {
 }
 
 .login_signup>div {
-    width: 20%;
+    min-width: 20%;
     font-size: 18px;
     font-weight: 550;
     text-align: center;
@@ -64,6 +66,8 @@ a {
     border-radius: 5px;
     color: white;
 }
+
+/* top nav ends here */
 
 .header{
     font-family: sans-serif;
@@ -216,7 +220,10 @@ a {
 .btn1:hover{
     background-color: lightslategray;
 }
-
+#learnMore:hover{
+    color: rgba(0, 0, 255, 0.555);
+}
+  
 
 @media only screen and (max-width: 600px) {
     #grid{
