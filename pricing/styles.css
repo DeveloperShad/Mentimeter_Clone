@@ -66,6 +66,16 @@ a {
     border-radius: 5px;
     color: white;
 }
+.hov:hover{
+    color: blue;
+}
+.white{
+    color: whitesmoke;
+}
+.hovbg:hover{
+    background-color: blue;
+
+}
 
 /* top nav ends here */
 
