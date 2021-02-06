@@ -1440,3 +1440,127 @@ button:hover{
     
 }
 /* Live Polling Second Block of Feature Polling Page Ended */
+ 
+/*  Footer CSS*/
+/* .bottom-footer{
+    width: 100%;
+    min-height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:1fr 0.3fr 1.5fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows:1fr;
+    background-color: #ECEDEF;
+    gap: 10px;
+​
+} */
+.padding-content{
+    padding-top: 30px;
+}
+.padding-logo{
+    padding-top: 45px;
+}
+.padding-mentimeter{
+    padding-top: 23px;
+}
+.padding-connect{
+    padding-top: 250px;
+}
+@media only screen and (max-width: 600px) {
+    .bottom-footer{
+        grid-template: " a a"
+                         "b c "
+                         "d d "
+                         "e e "
+                         "f f"
+                         "g g"
+                         "h h";
+    }
+    .bottom-footer{
+        width: 100%;
+        min-height: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows:auto;
+        background-color: #ECEDEF;
+        gap: 10px;
+    
+    }
+}
+@media only screen and (min-width: 600px) {
+    .bottom-footer{
+        grid-template: " a b c d e f g h";
+    }
+    .bottom-footer{
+        width: 100%;
+        min-height: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns:1fr 0.3fr 1.5fr 1fr 1fr 1fr 1fr 2fr;
+        grid-template-rows:1fr;
+        background-color: #ECEDEF;
+        gap: 10px;
+    
+    }
+    .line{
+        width:400px
+    }
+}
+    @media only screen and (min-width: 768px) {
+        .bottom-footer{
+            grid-template: " a b c d e f g h";
+        }
+        .bottom-footer{
+            width: 100%;
+            min-height: 400px;
+            margin: auto;
+            display: grid;
+            grid-template-columns:1fr 0.3fr 1.5fr 1fr 1fr 1fr 1fr 2fr;
+            grid-template-rows:1fr;
+            background-color: #ECEDEF;
+            gap: 10px;
+        
+        }
+    }
+        @media only screen and (min-width: 992px) {
+            .bottom-footer{
+                grid-template: " a b c d e f g h";
+            }
+            .bottom-footer{
+                width: 100%;
+                min-height: 400px;
+                margin: auto;
+                display: grid;
+                grid-template-columns:1fr 0.3fr 1.5fr 1fr 1fr 1fr 1fr 2fr;
+                grid-template-rows:1fr;
+                background-color: #ECEDEF;
+                gap: 10px;
+            
+            }
+        }
+        #footer1{
+            grid-area: a;
+        }
+        #footer2{
+            grid-area: b;
+        }
+        #footer3{
+            grid-area: c;
+        }
+        #footer4{
+            grid-area: d;
+        }
+        #footer5{
+            grid-area: e;
+        }
+        #footer6{
+            grid-area: f;
+        }
+        #footer7{
+            grid-area: g;
+        }
+        #footer8{
+            grid-area: h;
+        }
+
+/* Footer Code End */
