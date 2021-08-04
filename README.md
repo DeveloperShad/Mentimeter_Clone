@@ -15,6 +15,8 @@ We devided this work in multiple parts as we were four people to work on it.
 * Sathya prakash P
 * Anwar Shad
 
+## Netlify : https://eloquent-shaw-3ecec1.netlify.app
+
 
 
 ## In Detail Work Description
