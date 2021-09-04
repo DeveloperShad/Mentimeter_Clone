@@ -1,5 +1,5 @@
 # Mentimeter_Clone
-
+Mentimeter** is an easy-to-use presentation software used by more than 25 million people. With Mentimeter you can create fun and interactive presentations. It helps you to make your events, presentations, lectures, and workshops innovative and memorable.
 
 ## Welcome to Our Repository
 ===================================
