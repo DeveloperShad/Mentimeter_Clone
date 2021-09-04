@@ -25,6 +25,19 @@ We devided this work in multiple parts as we were four people to work on it.
 Here basically we created pages according to  [Mentimeter](https://www.mentimeter.com) and divided in beetween us and completed individually. We focused on every main page of the website, we haven't considered all the pages. We have used content of the  [Mentimeter](https://www.mentimeter.com), content as in texts and images and placed them on the new pages as they were placed on the  [Mentimeter](https://www.mentimeter.com). Basically we created CSS and Animations according to the  [Mentimeter](https://www.mentimeter.com)
 
 
+## Some Snapshot
+=================
+
+1. Landing Page
+
+   ![Mentimeter](https://github.com/ajcodeskills/Mentimeter_Clone/blob/main/Project/home_img/mentimeter-home.PNG?raw=true)
+
+2. Blog Page
+
+   ![Mentimeter](https://github.com/ajcodeskills/Mentimeter_Clone/blob/main/Project/home_img/mentimeter-blog.PNG?raw=true)
+
+
+
 ## The Pages We Covered.
 ------------
 The pages can be seprately viewd from the above directory:
