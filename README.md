@@ -1,4 +1,6 @@
 # Mentimeter_Clone
+
+## About 
 Mentimeter** is an easy-to-use presentation software used by more than 25 million people. With Mentimeter you can create fun and interactive presentations. It helps you to make your events, presentations, lectures, and workshops innovative and memorable.
 
 ## Welcome to Our Repository
@@ -16,6 +18,17 @@ We devided this work in multiple parts as we were four people to work on it.
 * Anwar Shad
 
 ## Netlify : https://eloquent-shaw-3ecec1.netlify.app
+
+
+## How to run the project 📑
+
+In this project we were able to achieve a near to perfect clone of the original website. As we do not want to overwhelm you, we haven't shared all the pages here.Please fork the repository and then use it on your own.
+
+You can also take the glimpse of our Project,just after cloning the repository you can just open any editor and go with live or just copy the file path and paste it on any browser.
+
+
+
+
 
 
 
